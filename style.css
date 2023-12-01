@@ -1,0 +1,117 @@
+html{
+    font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #628E90, #B4CDE6, #F5EFE6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.menu{
+    border: 2px solid peachpuff;
+    background-color: rgba(255, 218, 185, 0.581);
+    padding:5px;
+    margin: 5px;
+    display: inline-block;
+
+}
+.right{
+    float: right;
+}
+h1{
+    font-size: 5rem;
+    font-weight:lighter;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+}
+h2{
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+span{
+    font-weight: bold;
+}
+
+a { 
+    color: inherit;
+    text-decoration:none;
+ } 
+ .uvod{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+ }
+ #nadpis{
+    text-align: center;
+ }
+ 
+.container .text-center{
+    gap: 10px;
+}
+img{
+ width: 250px;
+}
+ .popis{
+    margin-top: 0px;
+    text-align: center;
+ }
+
+ footer{
+    text-align:center;
+    margin-top: 50px;
+    place-self: bottom
+    ;
+ }
+
+ @media(max-width:680px){
+    h1{
+        font-size:3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{font-size: 1rem;}
+    .uvod{
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .picture{
+        padding: 0px;
+        width: 100%;
+    }
+    .pictures{
+        display: inline-block;
+        padding:0px;
+        margin:0
+        
+    }
+   
+    .popis{
+        text-align: center;
+    }
+ }
